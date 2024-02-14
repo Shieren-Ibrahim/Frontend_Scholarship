@@ -1,0 +1,136 @@
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%confirm%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.confirm {
+    
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 50px 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+    
+}
+.confirmform {
+    
+    margin-left: 300px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+
+
+}
+.confirm_input_box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.confirm_input_box input{
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #0094ff;
+  outline: none;
+  resize: none;
+  color:#d1d1d1
+}
+.confirm_input_box span{
+  position: absolute;
+  left: 50px;
+  padding: 5px 0;
+  font-size: 10px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #00bcd4;
+}
+.confirm_input_box input:focus ~ span,
+.confirm_input_box input:valid ~ span
+{
+   color: #00bcd4;
+   font-size: 12px;
+   transform: translateY(-20px);
+
+}
+#datep{
+    font-size: 12px;
+}
+#pho{
+    font-size: 12px;
+}
+.confirmimg[alt="user"] {
+    position: absolute;
+    top: -20px;
+    left: 422px;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.signup_input{
+    margin-top: 10px;
+      margin-bottom: 10px;
+      outline: none;
+      border:none;
+      width:250px;
+      height: 35px;
+      border-bottom: 2px solid #0094ff;
+      background:transparent;
+      padding: 5px;
+      color: #d1d1d1
+  }
+#confirm1 {
+    margin-top: 50px;
+   
+}
+.confirmnext{
+    margin-top: 20px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.confirmnext1{
+    margin-top: 40px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.confirm_pre_text{
+    
+    font-size: 14px;
+    font-weight: 500;
+    color: #00bcd4;
+    text-align: left;
+    margin: 10px;
+    margin-left: 50px;
+
+}
+.confirmnext:hover{
+    background: #fff;
+    color: #0077ff;
+}
+.confirmnext1:hover{
+    background: #fff;
+    color: #0077ff;
+}
+#confirm_phone{
+    margin-top: 70px;
+}
+

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.contact11{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url();
+    background-size:cover ;
+}
+.contac11 .content11{
+    max-width: 800px;
+    text-align: center;
+}
+.contact11 .content11 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact11 .content11 p{
+    font-weight: 300;
+    color: #fff;
+}
+.container11{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+} 
+.container11 .contactInfo11{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container11 .contactInfo11 .box11{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    
+} 
+.container11 .contactInfo11 .box11 .icon11{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}  
+.contactForm11{
+    text-align: left;
+    height: 400px;
+    width: 40%;
+    padding: 40px;
+    color: rgb(200,200,200);
+    background: rgba(0, 0, 0, 0.5);
+ }
+.contactForm11 h2{
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+
+ }
+ .img11{
+    box-shadow: 5px;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+ }
+
+@media(max-width:991px){
+    .contact11{
+        padding: 50px;
+
+    }
+    .container11{
+        flex-direction: column;
+    }
+    .container11 .contactInfo11{
+        margin-bottom: 40px;
+    }
+    .container11 .contactInfo11,
+    .contactForm11{width: 100%;}
+ } 

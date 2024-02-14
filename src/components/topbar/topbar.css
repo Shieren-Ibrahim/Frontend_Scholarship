@@ -1,0 +1,116 @@
+
+.top {
+    margin-top: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    background-color: rgba(71, 70, 70, 0.3);
+  /* width: 100%;
+  height: 30px;
+  background: rgba(0,0,0, 0.5);
+  position: absolute;
+  top: 98%;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  top: 0;
+  font-family: "Josefin Sans", sans-serif; */
+}
+.top_link {
+    /* margin-top: 10px; */
+    color: rgba(255,255,255, 0.7);
+    
+    text-decoration: none;
+    /* font-family: sans-serif;
+    font-size: 16px;
+
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; */
+}
+.title_{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.topLeft{
+    /* flex: 3;
+    line-height: 40px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    justify-items:left;
+    left:10px;
+    font-weight: 100;
+    font:bold;
+    color: white; */
+ display: flex;
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgba(255,255,255, 0.7);
+    text-transform: uppercase;
+}
+/* .topRight {
+    flex: 3;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    justify-items:left;
+    right:10px;
+    font-weight: 100;
+    font:bold;
+    color: black;
+}
+   */
+
+
+.topList {
+
+    display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    /* display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none; */
+}
+.topList li{
+    font-size: 14px;
+    margin-left: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: rgba(255,255,255, 0.7);
+    cursor: pointer;
+}
+.arrow_back{
+    /* width: 100px; */
+    /* height: 100px; */
+     color: #a7a4a4;
+     /* position: absolute; */
+     /* top:50px;
+     left:0px; */
+     margin-left: 0;
+     padding-left: 0;
+     cursor: pointer;
+     margin-left: 20px ;
+     margin-right: 20px;
+     border: 1px solid rgba(255,255,255, 0.7);
+     border-radius: 50%;
+     padding: 3px;
+     
+ }
+ .arrow_back:hover{
+     background-color: rgba(83, 82, 82, 0.5);
+     transform: scale(1.1);
+     
+  }
+  

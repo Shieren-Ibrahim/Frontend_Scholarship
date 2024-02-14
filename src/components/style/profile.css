@@ -1,0 +1,96 @@
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% profile %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.profile_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 10px auto;
+    padding: 10px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}  
+.pro{
+    display: flex;
+}
+.profile_left{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    color: black;
+    padding-left: 50px;
+    
+   
+} 
+.profile_pre_text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #00bcd4;
+    text-align: left;
+    margin: 10px;
+    margin: 20px;
+}
+.profilr_text{
+   font-size: 16px;
+   color:white;
+   height: 30px;
+   margin: 10px;
+}
+.profile_btn{
+    margin:10px;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+}
+.profile_update{
+   
+    width: 100px;
+    height: 30px;
+    background: #00bcd4;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.profile_update:hover{
+    background: #fff;
+    color: #92c6f7;
+}
+.profile_back{
+    
+    width: 100px;
+    height: 30px;
+    background: #00bcd4;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.profile_back:hover{
+    background: #fff;
+    color: #92c6f7;
+}
+.profile_img{
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+    margin-left: 170px;
+    border-radius: 50%;
+    box-shadow: inset;
+    border-width:2px ;
+    border-style: solid;
+    border-color: rgb(34, 32, 32);
+    box-shadow: 5px 5px 5px rgb(68, 78, 82);
+}

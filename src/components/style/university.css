@@ -1,0 +1,169 @@
+.university_univs{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 20px auto;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.university_univ{
+    width:30%;
+    height:300px;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transform: (.8);
+    transition: all .3s ease-in-out;
+    margin-bottom: 100px;
+ }
+ .university_univ:hover{
+    background-color: rgba(83, 82, 82, 0.5);
+    cursor: pointer;
+}
+.university_univImage{
+    margin-top: -5vw;
+} 
+.university_univImage img{
+    margin-top: 0px;
+    width: 200px;
+border-radius: 15px;
+height: 150px;}
+
+.university_univInfo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+     
+}
+.university_univInfo p{
+    color:rgb(185, 183, 183);
+    height: 30px;
+}
+.university_univInfo a{
+    color:rgb(77, 250, 250)
+}
+.university_btn{
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 35px;
+    margin-top: 30px;
+    color: white;
+    background-color:  rgba(255,255,255, 0.3);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color .3s ease ;
+    overflow: hidden;
+  
+}
+.university_btn:hover{
+    background-color:white;
+    color: rgba(29, 28, 28)
+}
+/* ##################################################### */
+.univ_schs_scholarships{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 20px auto;
+    margin-top: 50px;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.univ_schs_scholarship{
+    width:30%;
+    height:300px;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transform: (.8);
+    transition: all .3s ease-in-out;
+    margin-bottom: 100px;
+ }
+ .univ_schs_scholarship:hover{
+     background-color: rgba(83, 82, 82, 0.5);
+     cursor: pointer;
+ }
+ .univ_schs_scholarshipImage{
+    margin-top: -5vw;
+
+} 
+.univ_schs_scholarshipImage img{
+    margin-top: 0px;
+    width: 200px;
+border-radius: 15px;
+height: 150px;
+}
+.univ_schs_scholarshipInfo{
+    display:flex;
+            justify-content: center;
+            align-items: center;
+            
+            flex-direction: column;
+            color: white;
+            margin: 25px 0;
+            h2{
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+                text-align: center;
+                color: rgba(255,255,255, 0.3);
+                margin: 8px 0;
+            }
+    /* align-items: center; */
+}
+.univ_schs_scholarshipInfo h2{
+    font-size: 18px;}
+.univ_schs_scholarshipInfo p{
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255,255,255, 0.3);
+    margin: 8px 0;
+}
+
+
+.univ_schs_more{
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 35px;
+    color: white;
+    background-color:  rgba(255,255,255, 0.3);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color .3s ease ;
+    overflow: hidden;
+}
+.univ_schs_more:hover{
+    background-color:white;
+    color: rgba(29, 28, 28)
+}

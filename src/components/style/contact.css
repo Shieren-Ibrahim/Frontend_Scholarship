@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.contact9{
+    position: relativae;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url();
+    background-size:cover ;
+}
+.contact9 .content9{
+    max-width: 800px;
+    text-align: center;
+}
+.contact9 .content9 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact9 .content9 p{
+    font-weight: 300;
+    color: #fff;
+}
+.container9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+} 
+.container9 .contactInfo9{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container9 .contactInfo9 .box9{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    
+} 
+.container9 .contactInfo9 .box9 .icon9{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}  
+.container9 .contactInfo9 .box9 .text9{
+   display: flex;
+   font-size: 16px;
+   flex-direction: column;
+   font-weight: 300;
+   margin-left: 20px;
+   color: #fff;
+
+}  
+.container9 .contactInfo9 .box9 .text9 h3{
+    font-weight: 500;
+    color: #00bcd4;
+    text-align: left;
+    
+ } 
+.contactForm9{
+    height: 400px;
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+ }
+.contactForm9 h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+
+ }
+.contactForm9 .inputBox9{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+ }
+.contactForm9 .inputBox9 input,
+.contactForm9 .inputBox9 textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    
+ }
+ .contactForm9 .inputBox9 span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 10px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+ }
+
+ .contactForm9 .inputBox9 input:focus ~ span,
+ .contactForm9 .inputBox9 input:valid ~ span,
+ .contactForm9 .inputBox9 textarea:focus ~ span,
+ .contactForm9 .inputBox9 textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+ }
+
+.contactForm9 .inputBox9 input[type="button"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+ }
+
+ @media(max-width:991px){
+    .contact9{
+        padding: 50px;
+
+    }
+    .container9{
+        flex-direction: column;
+    }
+    .container9 .contactInfo9{
+        margin-bottom: 40px;
+    }
+    .container9 .contactInfo9,
+    .contactForm9{width: 100%;}
+ } 

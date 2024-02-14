@@ -1,0 +1,339 @@
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%GetOrderAndNotification%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.getorder_home{
+    text-align: center;
+}
+.getorder_container{
+    flex-direction: column;
+    font-family: sans-serif;
+    height:800px;
+    width: 800px;
+}
+.orders{
+    display: flex;
+    margin-bottom: 20px;
+}
+.orders img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.order_img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 50px;
+    border-radius: 50%;
+    
+    
+}
+.order_img:hover{
+    transform: scale(1.1);
+}
+.order_info{
+    text-align: center;
+    text-wrap: nowrap;
+    color: white;
+    
+    align-items: center;
+    margin-left: 130px;
+    padding-top: 70px;
+    
+}
+.order_buttoms{
+    margin-top: 60px;
+    padding: 0;
+    margin-left: 100px;
+    padding-left: 150px;
+}
+.order_but{
+    margin-top: 15px;
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    background: #00bcd4;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.order_but:hover{
+    background: #fff;
+    color: #92c6f7;
+}
+.getorder_pre_text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #00bcd4;
+    text-align: left;
+    margin: 10px;
+}
+.getorder_text{
+   font-size: 16px;
+   color:white;
+   height: 30px;
+   margin: 10px;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Order %%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.order_{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.orderform{
+    
+    margin-left: 300px;
+    width: 370px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+   
+}
+.order_input_box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.order_input_box input{
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #0094ff;
+  outline: none;
+  resize: none;
+  color:#d1d1d1
+}
+.order_input_box span{
+  position: absolute;
+  left: 60px;
+  padding: 5px 0;
+  font-size: 14px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #00bcd4;
+}
+.order_input_box input:focus ~ span,
+.order_input_box input:valid ~ span
+{
+   color: #00bcd4;
+   font-size: 14px;
+   transform: translateY(-20px);
+
+}
+.order_pre_text{
+    
+        font-size: 14px;
+        font-weight: 500;
+        color: #00bcd4;
+        text-align: left;
+        margin: 10px;
+        margin-left: 60px;
+    
+}
+#num ::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    color: #00bcd4;
+    text-align: left;
+    margin: 10px;
+    margin-left: 50px; 
+}
+.order_input{
+    margin-top: 10px;
+      margin-bottom: 10px;
+      outline: none;
+      border:none;
+      width:250px;
+      height: 35px;
+  
+      border-bottom: 2px solid #0094ff;
+      background:transparent;
+      padding: 5px;
+      color:#d1d1d1
+  }
+.order_btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+.order_order{
+    width: 130px;
+    text-align: center;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.order_order:hover{
+    background: #fff;
+    color: #0077ff;
+}
+.order_back{
+    text-align: center;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+ 
+}
+.order_back:hover{
+    background: #fff;
+    color: #0077ff;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% updateOrder %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5 */
+.order_pre_text2{
+    
+    font-size: 14px;
+    font-weight: 500;
+    color: #00bcd4;
+    text-align: left;
+    margin: 10px;
+    margin-left: 50px;
+
+}
+.order_input_box2 span{
+    position: absolute;
+    left: 50px;
+    padding: 5px 0;
+    font-size: 14px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #00bcd4;
+  }
+.order_input_box2{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.order_input_box2 input{
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #0094ff;
+  outline: none;
+  resize: none;
+  color:#d1d1d1
+}
+.order_input_box2 input:focus ~ span,
+.order_input_box2 input:valid ~ span
+{
+   color: #00bcd4;
+   font-size: 14px;
+   transform: translateY(-20px);
+
+}
+.updateorder_{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 10px auto;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.updateorder_form{
+   
+    margin-left: 300px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.updateorder_input{
+    margin-top: 10px;
+      margin-bottom: 10px;
+      outline: none;
+      border:none;
+      width:250px;
+      height: 35px;
+  
+      border-bottom: 2px solid #0094ff;
+      background:transparent;
+      padding: 5px;
+      color: #fff;
+  }
+.updateorder_btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+.updateorder_update{
+    width: 130px;
+    text-align: center;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+.updateorder_update:hover{
+    background: #fff;
+    color: #0077ff;
+}
+
+.updateorder_back{
+    text-align: center;
+    width: 130px;
+    height: 35px;
+    margin-bottom: 5px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+   
+}
+.updateorder_back:hover{
+    background: #fff;
+    color: #0077ff;
+}
+
+
+
+
+
+
+
+
+
